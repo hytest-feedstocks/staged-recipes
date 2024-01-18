@@ -7,13 +7,13 @@ This is the starting place for a new recipe, welcome!
 To add a new recipe, you'll open a pull request containing:
 
 1. A `recipes/<Your feedstock name>/meta.yaml` file, containing the metadata for your dataset
-2. A `recipes/<Your feedstock name>/recipe.py` file, a Python module with recipe (or recipe dict-object) definition.
+1. A `recipes/<Your feedstock name>/recipe.py` file, a Python module with recipe (or recipe dict-object) definition.
+1. A `recipes/<Your feedstock name>/requirements.txt` file, listing any Python packages used in the recipe.
 
 See below for help on writing those files.
 
 Once your recipe is ready (or if you get stuck and need help), open a pull
-request from your fork of `pangeo-forge/staged-recipes`. A team of bots and
-pangeo-forge maintainers will help get your new recipe ready to go.
+request from your fork of `hytest-feedstocks/staged-recipes`.
 
 ## Developing a Recipe
 
