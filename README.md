@@ -8,7 +8,7 @@ To add a new recipe, you'll open a pull request containing:
 
 1. A `recipes/<Your feedstock name>/meta.yaml` file, containing the metadata for your dataset
 1. A `recipes/<Your feedstock name>/recipe.py` file, a Python module with recipe (or recipe dict-object) definition.
-1. A `recipes/<Your feedstock name>/requirements.txt` file, listing any Python packages used in the recipe.
+1. Optionally, a `recipes/<Your feedstock name>/requirements.txt` file, listing extra Python packages used in the recipe.
 
 See below for help on writing those files.
 
